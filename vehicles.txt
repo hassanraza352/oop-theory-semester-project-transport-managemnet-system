@@ -1,0 +1,2 @@
+Type      VehicleID      Number                   Capacity       OccupiedSeats  
+B         20             20                       200            0              
