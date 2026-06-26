@@ -1,9 +1,6 @@
 #include "UIUtils.h"
-#include <windows.h>
-void setColor(int color)
-{
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
-}
+#include "Utility.h"
+#include <cstdlib>
 
 void clearScreen()
 {
@@ -126,5 +123,4 @@ float getValidFloat(string prompt)
             cout << "\t\tInvalid Input! Please enter valid numeric values. (or press 'R' to go back)\n";
         }
     }
-}
 }
